@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Donator-WebApp/static/css/main.9538ff9a.css",
+    "main.js": "/Donator-WebApp/static/js/main.2e412f21.js",
+    "index.html": "/Donator-WebApp/index.html",
+    "main.9538ff9a.css.map": "/Donator-WebApp/static/css/main.9538ff9a.css.map",
+    "main.2e412f21.js.map": "/Donator-WebApp/static/js/main.2e412f21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9538ff9a.css",
+    "static/js/main.2e412f21.js"
+  ]
+}
