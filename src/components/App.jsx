@@ -1,8 +1,20 @@
 import react from "react";
 import  ReactDOM  from "react";
 
+import NavBar from "./NavBar.jsx";
+import Section from "./Section.jsx";
+
+
 function App(){
-  return <h1 className="text-orange-900">Hello World</h1>
+  return   ( 
+    <div>
+
+      <NavBar/>
+      <Section/>
+
+    </div>
+
+  );
 }
 
 

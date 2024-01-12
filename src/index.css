@@ -4,3 +4,43 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Roboto:wght@400;500;700&display=swap');
+
+nav a{
+  font-family:"Poppins",sans-serif ;
+  transition: 0.3s;
+}
+nav button{
+  font-family:"Poppins",sans-serif ;
+}
+
+
+nav a:hover {
+  color:#0ef;
+}
+
+section{
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background: #1f242d;
+  font-size:100px;
+  color:#fff;
+  font-weight:700;
+  scroll-snap-align: start;
+
+}
+
+section:nth-child(odd){
+  background: #323946;
+}
+
+ 
+
+
+html{
+  scroll-behavior: smooth;
+
+}
+
