@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Donator-WebApp/static/css/main.9538ff9a.css",
-    "main.js": "/Donator-WebApp/static/js/main.2e412f21.js",
+    "main.css": "/Donator-WebApp/static/css/main.abf937b5.css",
+    "main.js": "/Donator-WebApp/static/js/main.155a9b42.js",
     "index.html": "/Donator-WebApp/index.html",
-    "main.9538ff9a.css.map": "/Donator-WebApp/static/css/main.9538ff9a.css.map",
-    "main.2e412f21.js.map": "/Donator-WebApp/static/js/main.2e412f21.js.map"
+    "main.abf937b5.css.map": "/Donator-WebApp/static/css/main.abf937b5.css.map",
+    "main.155a9b42.js.map": "/Donator-WebApp/static/js/main.155a9b42.js.map"
   },
   "entrypoints": [
-    "static/css/main.9538ff9a.css",
-    "static/js/main.2e412f21.js"
+    "static/css/main.abf937b5.css",
+    "static/js/main.155a9b42.js"
   ]
 }
