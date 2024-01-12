@@ -3,7 +3,7 @@ import React from "react";
 function NavBar() {
   return (
     <header className="fixed top-0 left-0 w-full bg-black p-4 flex justify-between items-center z-50">
-      <a href="#home" className="text-white  text-xl font-bold">Being Human</a>
+      <a href="#home" className="text-white  text-xl font-bold logo ">Being Human</a>
       <nav className="flex space-x-4">
         <button className="text-white"> Login</button>
         <a href="#home" className="text-white  " >Home</a> 
