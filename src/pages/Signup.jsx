@@ -27,10 +27,10 @@ const Signup = () => {
   
 
   return (
-    <div >
-      <h1>Signup Page</h1>
+    <div className=' flex flex-col	items-center justify-center	 text-center	h-screen  signup  '>
+      <h1 className='logo 	 '>BEING HUMAN</h1>
       <form onSubmit={handleSubmit} className="signup-form">
-          <input
+          <input className=" phSignupLogin placeholder:italic placeholder:text-slate-50 block  w-full border border-cyan-600 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
             type="email"
             placeholder='Your Email'
             required
@@ -38,7 +38,7 @@ const Signup = () => {
             onChange={(e)=>setEmail(e.target.value)}
           />
 
-          <input 
+          <input className=" phSignupLogin placeholder:italic placeholder:text-slate-50 block  w-full border border-cyan-600 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
             type="password"
             placeholder='Your Password'
             required
@@ -48,9 +48,13 @@ const Signup = () => {
 
           <button type="submit" className='signup-button'>Signup</button>
 
-      </form>
+          <hr/>
 
-      <p>Need to Login ? <Link to="/login">Login</Link></p>
+      </form>
+    
+
+
+      <p className="">Need to Login ? <Link to="/login">Login</Link></p>
     </div>
   )
 }

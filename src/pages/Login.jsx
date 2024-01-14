@@ -38,10 +38,10 @@ const Login = () => {
   
 
   return (
-    <div >
-      <h1>Login Page</h1>
+    <div className=' flex flex-col	items-center justify-center	 text-center	h-screen	login  ' >
+      <h1 className='logo'>BEING HUMAN</h1>
       <form onSubmit={handleSubmit} className="login-form">
-          <input
+          <input className=" phSignupLogin placeholder:italic placeholder:text-slate-50 block  w-full border border-cyan-600 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
             type="email"
             placeholder='Your Email'
             required
@@ -49,7 +49,7 @@ const Login = () => {
             onChange={(e)=>setEmail(e.target.value)}
           />
 
-          <input 
+          <input className=" phSignupLogin placeholder:italic placeholder:text-slate-50 block  w-full border border-cyan-600 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
             type="password"
             placeholder='Your Password'
             required
@@ -57,7 +57,7 @@ const Login = () => {
             onChange={(e)=>setPassword(e.target.value)}
           />
 
-          <button type="submit" className='login-button'>Login</button>
+          <button type="submit" className='login-button  '>Login</button>
 
       </form>
 
@@ -67,3 +67,4 @@ const Login = () => {
 }
 
 export default Login;
+
