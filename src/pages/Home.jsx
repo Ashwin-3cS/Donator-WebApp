@@ -1,25 +1,21 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom';
-import { signOut } from 'firebase/auth';
-import { auth } from '../firebase';
-const Home = () => {
+import React from "react";
+import  ReactDOM  from "react-dom";
 
-  const user= JSON.parse(localStorage.getItem('user'));
-  const navigate = useNavigate();  
+import NavBar from "../components/NavBar.jsx"
+import Section from "../components/Section.jsx";
 
-  const handleLogout=async() =>{
-    await signOut(auth);
-    localStorage.removeItem('token');
-    localStorage.removeItem('user');
-    navigate("/login");
-  }
-  return (
+
+
+function Home(){
+
+  return  ( 
     <div>
-      <h1>Welcome now get out lol</h1>
-      <h2>{user && user.email}</h2>
-      <button onClick={handleLogout}>Logout</button>
+      <NavBar/>
+      <Section/>
     </div>
-  )
+
+  );
 }
+
 
 export default Home;
