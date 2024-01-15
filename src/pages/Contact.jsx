@@ -3,7 +3,7 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import { useNavigate } from 'react-router-dom';
 
-const Donator = () => {
+const Contact = () => {
 
   const navigate=useNavigate();
 
@@ -13,14 +13,14 @@ const Donator = () => {
 
 
   return (
-    <div className='donator'>
+    <div className='contact'>
       <NavBar navigate={navigate}/>
       <div className='h-screen pt-[60px]'>
-        <h1>hi donator</h1>
+        <h1>Contact page</h1>
       
       </div>
     </div>
   );
 };
 
-export default Donator;
+export default Contact;

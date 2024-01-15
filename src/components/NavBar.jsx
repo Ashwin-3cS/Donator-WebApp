@@ -25,7 +25,10 @@ function NavBar({navigate}) {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-black p-4 flex justify-between items-center z-50">
-      <a href="#home" className="text-white  text-xl font-bold logo ">Being Human</a>
+      {/* <a href="#home" className="text-white  text-xl font-bold logo ">Being Human</a> */}
+        <Link to="/home" className="text-white text-xl font-bold logo" onClick={goToHome}>
+        Being Human
+        </Link>
       <nav className="flex space-x-4">
         <button onClick={handleLogout} className="text-white  logout-button"> LogOut</button>
         <Link to="/consumer" className="text-white">
@@ -42,9 +45,16 @@ function NavBar({navigate}) {
           Home
         </Link>
 
-        <a href="#ourwork" className="text-white">OurWork</a>
-        <a href="#team" className="text-white">Team</a>
-        <a href="#contact" className="text-white">Contact</a> 
+        <Link to="/ourwork" className="text-white">
+          OurWork
+        </Link>
+        <Link to="/team" className="text-white">
+          Team
+        </Link>
+        <Link to="/contact" className="text-white">
+          Contact
+        </Link>
+        
 
       </nav>
     </header>

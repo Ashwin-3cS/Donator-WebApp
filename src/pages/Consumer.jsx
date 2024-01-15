@@ -33,7 +33,7 @@ const Consumer = () => {
     <div className='consumer'>
       <NavBar navigate={navigate}/>
       <div className='h-screen pt-[60px]'>
-        <h1 className=''>Consumer Page</h1>
+        <h1>hi consumer</h1>
       </div>
 
     </div>

@@ -25,14 +25,14 @@ nav a:hover {
 
 section{
   min-height: 100vh;
-  display:flex;
+  /* display:flex;
   justify-content: center;
-  align-items:center;
+  align-items:center; */
   background: #1f242d;
-  font-size:100px;
+  /* font-size:100px;
   color:#fff;
   font-weight:700;
-  scroll-snap-align: start;
+  scroll-snap-align: start; */
 
 }
 
@@ -51,6 +51,19 @@ html{
 .consumer{
   background-color: #1f242d;
 }
+.donator{
+  background-color: #1f242d;
+}
+.ourwork{
+  background-color: #1f242d;
+}
+.contact{
+  background-color: #1f242d;
+}
+.team{
+  background-color: #1f242d;
+}
+
 
 
 

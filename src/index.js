@@ -119,6 +119,9 @@ import Home from './pages/Home.jsx';
 import Signup from './pages/Signup';
 import Consumer from './pages/Consumer.jsx';
 import Donator from './pages/Donator.jsx';
+import Ourwork from './pages/Ourwork.jsx';
+import Team from './pages/Team.jsx';
+import Contact from './pages/Contact.jsx';
 
 
 
@@ -130,6 +133,10 @@ const router=createBrowserRouter(
       <Route path="login" element ={<Login/>}/>
       <Route path="consumer" element={<Consumer/>}/>
       <Route path="donator" element={<Donator/>}/>
+      <Route path="ourwork" element={<Ourwork />} />
+      <Route path="team" element={<Team />} />
+      <Route path="contact" element={<Contact />} />
+      
       <Route path="/" element ={<Protected/>}>
         <Route path="/" index element={<Home/>}/>
       </Route>
