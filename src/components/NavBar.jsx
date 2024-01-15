@@ -56,6 +56,10 @@ export default NavBar;
 
 
 
+
+
+//tried some other thing
+
 // import { signOut } from "firebase/auth";
 // import React from "react";
 // import { Link, useNavigate } from "react-router-dom";
@@ -91,3 +95,10 @@ export default NavBar;
 // }
 
 // export default NavBar;
+
+
+
+
+
+
+
