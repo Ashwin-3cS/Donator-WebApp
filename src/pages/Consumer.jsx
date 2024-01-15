@@ -32,8 +32,8 @@ const Consumer = () => {
   return (
     <div className='consumer'>
       <NavBar navigate={navigate}/>
-      <div >
-        <h1 className='mt-[200px]'>Consumer Page</h1>
+      <div className='h-screen pt-[60px]'>
+        <h1 className=''>Consumer Page</h1>
       </div>
       {/* Add your content for the Consumer page */}
       {/* <button onClick={goToHomePage}>Go to Home</button> */}
