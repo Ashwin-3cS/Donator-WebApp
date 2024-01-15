@@ -72,6 +72,8 @@ input,
   width: 50%;
   will-change: transform;
   margin-left: 25%;
+  margin-bottom: 10px;
+  margin-top:2px;
 }
 
 .login-button:disabled {
@@ -122,6 +124,8 @@ input,
   width: 50%;
   will-change: transform;
   margin-left: 25%;
+  margin-bottom: 10px;
+  margin-top:2px;
 }
 
 .signup-button:disabled {
@@ -137,6 +141,18 @@ input,
   box-shadow: none;
   transform: translateY(0);
 }
+
+
+*{
+  margin:0;
+}
+
+.logout-button:hover{
+
+  color:red;
+
+}
+
 
 
 

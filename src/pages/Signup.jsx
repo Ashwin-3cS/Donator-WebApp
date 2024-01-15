@@ -27,8 +27,8 @@ const Signup = () => {
   
 
   return (
-    <div className=' flex flex-col	items-center justify-center	 text-center	h-screen  signup  '>
-      <h1 className='logo 	 '>BEING HUMAN</h1>
+    <div className=' flex flex-col	items-center justify-center	 text-center	h-screen  signup   '>
+      <h1 className='logo  mb-[8px] mr-[4px] text-3xl		'>BEING HUMAN</h1>
       <form onSubmit={handleSubmit} className="signup-form">
           <input className=" phSignupLogin placeholder:italic placeholder:text-slate-50 block  w-full border border-cyan-600 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
             type="email"
@@ -46,15 +46,17 @@ const Signup = () => {
             onChange={(e)=>setPassword(e.target.value)}
           />
 
-          <button type="submit" className='signup-button'>Signup</button>
+          <button type="submit" className='signup-button '>Signup</button>
 
           <hr/>
+          
 
       </form>
     
 
 
-      <p className="">Need to Login ? <Link to="/login">Login</Link></p>
+      <p  className="mt-[3px]">Need to Login ? <Link className='text-cyan-600' to="/login">Login</Link></p>
+      
     </div>
   )
 }
