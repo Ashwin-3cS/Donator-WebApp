@@ -15,8 +15,10 @@ const Donator = () => {
   return (
     <div>
       <NavBar navigate={navigate}/>
-      <h2 className='mt-[200px]'>Donator Page</h2>
+      <div className='h-screen pt-[60px]'>
+      <h2 className=''>Donator Page</h2>
       {/* Add your content for the Consumer page */}
+      </div>
     </div>
   );
 };
