@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "../App.css";
 
 const SearchBar = ({ onSearchClick, setLocation }) => {
   const [locationInput, setLocationInput] = useState('');
@@ -14,13 +15,14 @@ const SearchBar = ({ onSearchClick, setLocation }) => {
     <div className="ml-[43%] mt-[6%] relative">
       <input
         type="text"
-        placeholder="Enter Location"
+        placeholder ="Enter Location"
         value={locationInput}
         onChange={(e) => setLocationInput(e.target.value)}
-        className="w-40 py-2 px-4 border border-gray-300 rounded-l-md focus:outline-none focus:ring focus:border-blue-300"
+        className=" search-bar-cons w-40 py-2 px-4  border-cyan-600 border-[2px] rounded-l-md focus:outline-none focus:ring focus:border-cyan-300"
+        spellCheck="false"      
       />
       <button
-        className="ml-[2px] py-2 px-4 bg-blue-500 text-white rounded-r-md hover:bg-blue-600 transition duration-300"
+        className="ml-[2px] py-2 px-4 bg-cyan-500 text-white rounded-r-md hover:bg-cyan-600 transition duration-300"
         onClick={handleSearch}
       >
         Search

@@ -197,4 +197,17 @@ input,
 
 
 
+.search-bar-cons {
+
+  background-color: gray;
+
+}
+
+.search-bar-cons::placeholder{
+  color: whitesmoke;
+}
+
+
+
+
 
