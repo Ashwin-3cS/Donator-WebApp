@@ -7,12 +7,12 @@ function Section(){
 
       
       <section id="home">
-        <div className="mt-[10px]">
-          <div className="mt[50px]"><h1 className="ml-[47.5%] ">WHAT DO WE DO</h1></div>
-        <p className=" text-slate-300 text-2xl	">
+        <div className="mt-[60px]">
+          <h1 className="ml-[46.5%] ">WHAT DO WE DO</h1>
+          <p className=" text-slate-300 text-2xl	">
           Empowering Restaurants, Subways, Nourishing Communities:<br/>
            Connecting surplus food from restaurants to those in need, we strive to combat hunger and reduce food waste, creating a more sustainable and compassionate world
-        </p>
+          </p>
         </div>
       </section>
       {/* <section id="ourwork">OurWork</section> */}

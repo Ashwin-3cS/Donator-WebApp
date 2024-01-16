@@ -1,0 +1,29 @@
+.auto-image-carousel {
+  width: 30%;
+  overflow: hidden;
+  border-radius: 30%;
+  position: absolute;
+  top: 11%;
+  left:28.5%;
+  transform: translateX(-50%);
+  border: 2px solid rgb(56, 215, 215); 
+
+}
+
+.auto-image-carousel img {
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.auto-image-carousel img:nth-child(1) {
+  transform: translateX(0%);
+}
+
+.auto-image-carousel img:nth-child(2) {
+  transform: translateX(-100%);
+}
+
+.auto-image-carousel img:nth-child(3) {
+  transform: translateX(-200%);
+}
+

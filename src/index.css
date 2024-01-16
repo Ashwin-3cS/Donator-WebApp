@@ -48,9 +48,14 @@ html{
 
 }
 
-.consumer{
+/* .consumer{
   background-color: #1f242d;
+} */
+.full-vh-background {
+  min-height: 100vh;
+  background-color: #1f242d; /* Replace with your desired background color */
 }
+
 .donator{
   background-color: #1f242d;
 }
