@@ -1,8 +1,9 @@
 import { signOut } from "firebase/auth";
 import React from "react";
-import { useNavigate, useNavigation } from "react-router-dom";
+import { NavLink, useNavigate, useNavigation } from "react-router-dom";
 import { auth } from "../firebase";
 import { Link } from 'react-router-dom';
+import "../App.css";
 
 
 function NavBar({navigate}) {
@@ -31,12 +32,12 @@ function NavBar({navigate}) {
         </Link>
       <nav className="flex space-x-4">
         <button onClick={handleLogout} className="text-white  logout-button"> LogOut</button>
-        <Link to="/consumer" className="text-white">
+        <NavLink to="/consumer" className="text-white"  activeClassName="active">
           Consumer
-        </Link>
-        <Link to="/donator" className="text-white">
+        </NavLink>
+        <NavLink to="/donator" className="text-white">
           Donator
-        </Link>
+        </NavLink>
        
         {/* <Link to="/home" className="text-white">
           Home
@@ -45,15 +46,15 @@ function NavBar({navigate}) {
           Home
         </Link>
 
-        <Link to="/ourwork" className="text-white">
+        <NavLink to="/ourwork" className="text-white">
           OurWork
-        </Link>
-        <Link to="/team" className="text-white">
+        </NavLink>
+        <NavLink to="/team" className="text-white">
           Team
-        </Link>
-        <Link to="/contact" className="text-white">
+        </NavLink>
+        <NavLink to="/contact" className="text-white">
           Contact
-        </Link>
+        </NavLink>
         
 
       </nav>
